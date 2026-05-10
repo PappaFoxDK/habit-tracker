@@ -26,6 +26,7 @@ All data is stored locally in a JSON file and persists between sessions.
 ```
 HabitTracker/
 ├── app.py                        # Entry point
+├── conftest.py                   # Pytest path configuration
 ├── requirements.txt              # Dependencies
 ├── data/
 │   └── habits.json               # Your habit data (created on first run)
@@ -186,13 +187,13 @@ A **streak** is the number of consecutive periods (days or weeks) where you comp
 Make sure you are in the project root folder, then run:
 
 ```bash
-pytest tests/
+python -m pytest tests/
 ```
 
 To see more detail about each test:
 
 ```bash
-pytest tests/ -v
+python -m pytest tests/ -v
 ```
 
 The tests cover:
