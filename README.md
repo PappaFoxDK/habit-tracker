@@ -58,7 +58,7 @@ HabitTracker/
 **1. Clone or unzip the project**
 
 ```bash
-git clone https://github.com/your-username/habit-tracker.git
+git clone https://github.com/PappaFoxDK/habit-tracker.git
 cd habit-tracker
 ```
 
